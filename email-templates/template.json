@@ -1,0 +1,9 @@
+{
+  "email_template": {
+    "name": "Pickup Order",
+    "subject": "Your lunch is ready for pickup",
+    "category": "order.ready",
+    "body_text": "Hello {{name}},\nYour {{quantity}} \u00d7 {{item}} is ready. Collect at the Corner Kitchen counter.\nTotal: USD {{total}}. Pay at pickup. Reference: {{reference}}",
+    "body_html": "<pre>Hello {{name}},\nYour {{quantity}} \u00d7 {{item}} is ready. Collect at the Corner Kitchen counter.\nTotal: USD {{total}}. Pay at pickup. Reference: {{reference}}</pre>"
+  }
+}
